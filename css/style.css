@@ -1,0 +1,275 @@
+/*GLOBAL*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+
+header img {
+    float: left;
+    position: relative;
+    z-index: 2;
+    margin-left: 2%;
+}
+#bestil1 {
+    background-image: url(../images/pool-liggestole.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+.nav {
+    border-bottom: 1px solid #000000;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: skyblue;
+}
+
+
+
+.menu {
+    margin: 0 30px 0 0;
+    width: 100%;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    line-height: 70px;
+    background-color: skyblue;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+h1,
+h2 {
+    text-align: center;
+    
+}
+
+p, h3{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.galleri2{
+    position: relative;
+    right: 15%
+}
+
+main img {
+    width: 100%;
+}
+.galleri{
+    border: 1px solid;
+}
+
+.book{
+    background-color: white;
+    opacity: 0.90;
+    border: 1px solid skyblue;
+}
+
+.article{
+    background-color: skyblue;
+    border: 1px solid #fff;
+    
+    
+}
+
+.vietnam {
+    border: 1px solid #000000;
+
+}
+
+.sri-lanka {
+    border: 1px solid #000000;
+    margin-top: 5%;
+}
+
+.jordan {
+    border: 1px solid #000000;
+    margin-top: 5%;
+}
+
+.marokko {
+    border: 1px solid #000000;
+    margin-top: 5%;
+}
+
+
+
+footer {
+    background-color: skyblue;
+    color: #fff;
+    border: 1px solid #000;
+    margin-top: 5%;
+
+}
+
+/*MOBIL*/
+
+@media(max-width: 767px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .nav {
+        position: relative;
+        z-index: 2;
+    }
+    #billede2 {
+        display: none;
+    }
+    footer {
+        background-color: skyblue;
+        text-align: center;
+
+    }
+}
+
+/*tablet landskape*/
+
+@media(min-width: 768px) {
+    .galleri {
+        margin: 1%;
+        border: 1px solid #ccc;
+        float: left;
+        width: 45%;
+        height: auto;
+        position: relative;
+        left: 3%;
+
+    }
+
+    .galleri img {
+        width: 100%;
+        height: 200px;
+
+    }
+    .galleri2{
+        margin: 1%;
+        float: left;
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 3%;
+    }
+    .galleri2 img{
+        width: 100%;
+        height: 200%;
+    }
+    p {
+        clear: both
+    }
+     
+    #billede1{
+        display: none;
+    }
+    #billede2{
+        width: 100%;
+    }
+    
+    .desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+        
+footer{
+        float: left;
+        width: 100%;
+        background-color: skyblue;
+        text-align: center;
+    }
+}
+
+
+
+/*Laptop og derover*/
+
+@media(min-width:1024px) {
+
+    .galleri {
+        margin: 1%;
+        border: 1px solid #ccc;
+        float: left;
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 8%;
+
+    }
+    .galleri img {
+        width: 100%;
+        height: 200px;
+
+
+    }
+    p {
+        clear: both;
+    }
+    #bilede1{
+        display: none;
+    }
+    #billede2{
+        width: 100%;
+        height: auto;
+    }
+
+    .desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+
+
+    footer {
+
+        float: left;
+        width: 100%;
+        background-color: skyblue;
+        text-align: center;
+
+
+    }
+}
